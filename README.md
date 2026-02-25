@@ -8,10 +8,6 @@ A Java console application for managing students and instructors.
 
 Fork this repository, clone your fork, and open the project in your IDE.
 
-```bash
-git clone https://github.com/YOUR_USERNAME/student-management-system.git
-```
-
 ---
 
 ## Your Task
