@@ -26,7 +26,31 @@ Create a folder with your name under `src/main/java/students/` and build out the
 - Additional fields: `department`
 - Methods: `getSummary()`, `createAnnouncement(String message)`
 
+**`Instructor`** should also be able to hold a list of assigned `Student` objects with the ability to add students and print a roster.
+
+```
+Dr. Rivera's Roster:
+  - Jordan Smith | Grade Level: 2 | GPA: 3.8
+  - Marcus Brown | Grade Level: 1 | GPA: 2.9
+```
+
 In your `Main` class, create a mix of `Student` and `Instructor` objects, store them in a single list, and print each one's summary.
+
+---
+
+## Example Output
+
+```
+[Student] Jordan Smith | Grade Level: 2 | GPA: 3.8 | Honor Roll: Yes
+[Student] Marcus Brown | Grade Level: 1 | GPA: 2.9 | Honor Roll: No
+[Instructor] Dr. Rivera | Department: Computer Science
+```
+
+---
+
+## Stretch Goal
+
+Create a **`School`** class that holds a list of `Student` objects and a list of `Instructor` objects. It should support adding both and printing a full directory.
 
 ---
 
@@ -36,6 +60,7 @@ In your `Main` class, create a mix of `Student` and `Instructor` objects, store 
 - All classes require a constructor
 - `Person` must be abstract
 - `getSummary()` must be overridden in each subclass
+- No `instanceof` checks in your loop
 
 ---
 
